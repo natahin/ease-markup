@@ -1,0 +1,25 @@
+{
+  "name": "try-grunt",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt build",
+    "develop": "grunt develop"
+  },
+  "author": "natahin",
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-google": "^0.5.0",
+    "grunt": "~0.4.4",
+    "grunt-concurrent": "^2.3.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-watch": "latest",
+    "grunt-shell": "^1.1.2",
+    "http-server": "^0.8.5",
+    "livereload": "^0.3.7"
+  }
+}
